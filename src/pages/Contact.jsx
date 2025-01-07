@@ -16,12 +16,12 @@ const info = [
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "contact@example.com",
+    description: "muhammadkaifrazwi@gmail.com",
   },
   {
     icon: <FaMapMarkerAlt />,
     title: "Address",
-    description: "123 Street, City, Country",
+    description: "Hyedrabad, India",
   },
 ];
 
@@ -31,7 +31,7 @@ const Contact = () => {
     const formData = new FormData(event.target);
     try {
       const response = await axios.post(
-        "http://localhost:4000/contact",
+        "https://port-back-svwp.onrender.com/contact",
         Object.fromEntries(formData),
         { headers: { "Content-Type": "application/json" } }
       );
