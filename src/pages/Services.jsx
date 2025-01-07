@@ -30,7 +30,7 @@ const Services = () => {
       link: "https://example.com/web-development",
     },    {
       number: 5,
-      title: "Web Development",
+      title: "Frontend Development",
       description: "Building responsive and user-friendly websites.",
       link: "https://example.com/web-development",
     },    {

@@ -16,12 +16,12 @@ const info = [
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "contact@example.com",
+    description: "muhammadkaifrazwi@gmail.com",
   },
   {
     icon: <FaMapMarkerAlt />,
     title: "Address",
-    description: "123 Street, City, Country",
+    description: "Hyedrabad, India",
   },
 ];
 
