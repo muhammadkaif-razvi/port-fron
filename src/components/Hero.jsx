@@ -3,7 +3,7 @@
 import { FaChevronDown } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import useScrollOnClick from "../utils/useScrollOnClick";
-import Photo from "./Photo"; // Import the corrected photo component
+import Photo from "./photo"; 
 import SmallStatCard from "./Stats";
 
 const Hero = () => {
