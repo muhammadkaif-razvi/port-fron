@@ -5,6 +5,7 @@
   "type": "module",
   "proxy": "https://port-back-svwp.onrender.com",
   "scripts": {
+    "start": "cross-env PORT=$PORT vite preview --port $PORT",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -43,6 +44,7 @@
     "globals": "^15.12.0",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17",
-    "vite": "^6.0.1"
+    "vite": "^6.0.1",
+    "cross-env": "^7.0.3"
   }
 }
