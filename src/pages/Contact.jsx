@@ -35,17 +35,19 @@ const Contact = () => {
         Object.fromEntries(formData),
         { headers: { "Content-Type": "application/json" } }
       );
-      console.log("Response:", response.data);
       if (response.status === 200) {
         toast.success("Form submitted successfully!");
+        event.target.reset(); // Reset the form after successful submission
       } else {
         toast.error("Failed to submit form.");
+        event.target.reset();
       }
     } catch (error) {
-      console.error("Error:", error);
       toast.error("An error occurred.");
+      event.target.reset();
     }
   };
+
 
   return (
     <motion.section
