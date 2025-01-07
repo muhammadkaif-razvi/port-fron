@@ -31,7 +31,7 @@ const Contact = () => {
     const formData = new FormData(event.target);
     try {
       const response = await axios.post(
-        "http://localhost:4000/contact",
+        "https://port-back-svwp.onrender.com/contact",
         Object.fromEntries(formData),
         { headers: { "Content-Type": "application/json" } }
       );

@@ -15,17 +15,17 @@ const Services = () => {
     },
     {
       number: 2,
-      title: "Web Development",
+      title: "Frontend Development",
       description: "Building responsive and user-friendly websites.",
       link: "https://example.com/web-development",
     },    {
       number: 3,
-      title: "Web Development",
+      title: "Backend Development",
       description: "Building responsive and user-friendly websites.",
       link: "https://example.com/web-development",
     },    {
       number: 4,
-      title: "Web Development",
+      title: "Frontend Development",
       description: "Building responsive and user-friendly websites.",
       link: "https://example.com/web-development",
     },    {
@@ -35,7 +35,7 @@ const Services = () => {
       link: "https://example.com/web-development",
     },    {
       number: 6,
-      title: "Web Development",
+      title: "Backend Development",
       description: "Building responsive and user-friendly websites.",
       link: "https://example.com/web-development",
     },
