@@ -55,7 +55,7 @@ const Photo = () => {
         }}
       >
         <img
-          src="../public/assets/kaif.png"
+          src="/assets/kaif.png"
           alt="Muhammad Kaif Razvi"
           className="object-cover w-full h-full"
         />
@@ -65,8 +65,3 @@ const Photo = () => {
 };
 
 export default Photo;
-
-
-
-
-
